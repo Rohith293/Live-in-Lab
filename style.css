@@ -1,0 +1,126 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2f1; /* Soft light greenish background, resembling nature */
+    margin: 0;
+    padding: 0;
+    color: #3e2723; /* Dark brown text for a grounded, earthy feel */
+}
+
+/* Container Styling */
+.container {
+    width: 70%;  /* Increased width for a more spacious feel */
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid #c8e6c9; /* Light green border to match the natural vibe */
+    text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/wood-pattern.png'); /* Subtle wood texture background */
+    background-size: cover;
+}
+
+/* Main Header */
+h1 {
+    font-family: 'Georgia', serif; /* A more rustic, farm-like font */
+    color: #2e7d32; /* Dark Green for the header to keep it nature-themed */
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+/* Label Styling */
+label {
+    font-size: 1.2em;
+    color: #3e2723;
+    font-weight: bold;
+    display: block;
+    margin: 15px 0 8px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #388e3c; /* Dark Green border */
+    border-radius: 6px;
+    background-color: #f1f8e9; /* Light greenish background */
+    font-size: 1.1em;
+    color: #3e2723;
+}
+
+input:focus {
+    border-color: #81c784; /* Lighter green for focus effect */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #388e3c; /* Earthy dark green */
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #81c784; /* Lighter green for hover effect */
+}
+
+/* List Styling (for plant results) */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 40px;
+}
+
+li {
+    background-color: #c8e6c9; /* Soft green for list items */
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #388e3c; /* Dark green text */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Go Back Button Styling (for the results page) */
+button.go-back {
+    background-color: #8d6e63; /* Earthy brown color */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.go-back:hover {
+    background-color: #a1887f; /* Slightly lighter brown for hover */
+}
+
+/* Additional Styling for Results Page */
+#plant-list {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 40px;
+    color: #388e3c;
+}
+
+/* Footer or Bottom Space (Optional for additional info or footer) */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1em;
+    background-color: #388e3c;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px 10px 0 0;
+}
